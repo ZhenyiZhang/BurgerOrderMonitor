@@ -1,0 +1,53 @@
+.selectButton {
+    width: 100%;
+    height: 50px;
+    left: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(108, 113, 119, 0.87);
+    background-color: transparent;
+    border: none;
+}
+.selectButton:hover {
+    color: white;
+    background: lightgrey;
+}
+.selectButton:focus {
+    outline:none;
+    box-shadow: none;
+}
+.selectedButton {
+    width: 100%;
+    height: 50px;
+    left: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    background-color: #5CC4C0;
+    border: none;
+}
+.selectedButton:focus {
+    outline:none;
+    box-shadow: none;
+}
+
+.sideDraw {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    left: 0;
+    background-color: #FFFFFF;
+}
+
+.orderPanel {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}

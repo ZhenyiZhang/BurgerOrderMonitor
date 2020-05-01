@@ -1,0 +1,10 @@
+.OrderSelector {
+    left: 30%;
+    width: 60%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
